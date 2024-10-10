@@ -1,0 +1,73 @@
+[17-Aug-2024 13:52:32 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 32
+[17-Aug-2024 13:52:32 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 44
+[17-Aug-2024 13:52:32 America/Fortaleza] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 3
+[17-Aug-2024 13:52:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 3
+[17-Aug-2024 13:53:45 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 5
+[17-Aug-2024 13:53:45 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 17
+[17-Aug-2024 14:03:52 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 5
+[17-Aug-2024 14:03:52 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 17
+[17-Aug-2024 14:03:52 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:03:55 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:03:58 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:04:05 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:04:07 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:10:45 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 5
+[17-Aug-2024 14:10:45 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 17
+[17-Aug-2024 14:10:46 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:11:10 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 5
+[17-Aug-2024 14:11:10 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 17
+[17-Aug-2024 14:11:10 America/Fortaleza] PHP Fatal error:  Uncaught onesignal\client\ApiException: [400] Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response:
+{"errors":["Schedule Notifications may not be scheduled in the past."]}
+ in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php:1122
+Stack trace:
+#0 /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php(1098): onesignal\client\api\DefaultApi->createNotificationWithHttpInfo(Object(onesignal\client\model\Notification))
+#1 /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php(83): onesignal\client\api\DefaultApi->createNotification(Object(onesignal\client\model\Notification))
+#2 {main}
+  thrown in /home2/razons84/public_html/ngr/vendor/onesignal/onesignal-php-api/lib/api/DefaultApi.php on line 1122
+[17-Aug-2024 14:11:29 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'DateTime' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 5
+[17-Aug-2024 14:11:29 America/Fortaleza] PHP Warning:  The use statement with non-compound name 'GuzzleHttp' has no effect in /home2/razons84/public_html/ngr/src/php/os/criarnivel01.php on line 17

@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/OneSignal/onesignal-php-api.git"
+        }
+    ],
+    "require": {
+        "onesignal/onesignal-php-api": "*@dev",
+        "dompdf/dompdf": "^3.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
